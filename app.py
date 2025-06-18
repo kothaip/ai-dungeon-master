@@ -1,3 +1,7 @@
+@app.route('/')
+def home():
+    return "Welcome to AI Dungeon Master!"
+
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)
